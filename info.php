@@ -1,5 +1,5 @@
 <?php
-print_r("Entrei Aqui...");
+print_r("Não Entrei Aqui...");
 
 function resize_image($file, $w, $h, $crop=FALSE) {
     list($width, $height) = getimagesize($file);
@@ -21,7 +21,7 @@ function resize_image($file, $w, $h, $crop=FALSE) {
             $newwidth = $w;
         }
     }
-	print_r("Entrei Aqui...1");
+	print_r("Também Não Entrei Aqui...1");
     $src = imagecreatefromjpeg($file);
     $dst = imagecreatetruecolor($newwidth, $newheight);
     imagecopyresampled($dst, $src, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);
