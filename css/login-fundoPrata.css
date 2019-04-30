@@ -1,0 +1,346 @@
+.content {
+    background-color: #2b3e50
+}
+#login-dialog {
+    height: auto;
+    outline: none;
+    margin: auto
+}
+@media (min-width: 480px) {
+    #login-dialog {
+        width: 440px
+    }
+}
+#login-dialog h2 {
+    margin-bottom: 15px
+}
+#login-dialog h3 {
+    color: #bdc3c7
+}
+#login-dialog .box-area {
+    height: 440px;
+    width: 440px;
+    margin: 0 auto;
+    position: relative
+}
+#login-dialog .box {
+    border: 1px solid #888;
+    border-color: hsla(0, 0%, 54%, .5);
+    border-radius: 2px;
+    padding: 15px;
+    background: #ececec;
+    background: linear-gradient(#fff, #ececec);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    -ms-box-sizing: border-box
+}
+@media (min-width: 480px) {
+    #login-dialog .box {
+        padding: 30px;
+        width: 440px!important
+    }
+}
+#login-dialog .box a {
+    color: #1faece
+}
+#login-dialog .box a:hover {
+    color: #4fcae6
+}
+#login-dialog .box .alert {
+    margin: 30px -31px -31px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 1px hsla(0, 0%, 100%, .4);
+    display: block;
+    height: 0;
+    border: 0;
+    overflow: hidden;
+    padding: 0 15px
+}
+#login-dialog .box .alert.error {
+    background: #dba9a9;
+    background: linear-gradient(#eed7d7, #dba9a9);
+    color: #a40000
+}
+#login-dialog .box .alert.error.active {
+    border: 1px solid #b9a1a0;
+    border-bottom-color: #ab8181
+}
+#login-dialog .box .alert.active {
+    border: 1px solid #d7ba66;
+    border-radius: 0 0 2px 2px;
+    min-height: 19px;
+    height: auto;
+    padding: 15px;
+    display: block
+}
+#login-dialog .box .avatar {
+    background-color: #eaedee;
+    background-image: url(/dist/images/structure/login/default-avatar-2EyFHk53.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #bdc3c7;
+    border-radius: 112px;
+    height: 112px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    position: relative;
+    width: 112px
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min--moz-device-pixel-ratio: 1.5),
+(min-resolution: 1.5dppx) {
+    #login-dialog .box .avatar {
+        background-image: url(/dist/images/structure/login/default-avatar@2x-2WJdCPX6.png);
+        background-size: 112px 112px
+    }
+}
+#login-dialog .box .avatar img {
+    display: block;
+    border-radius: 112px;
+    width: 100%;
+    height: 100%;
+    width: 144px;
+    height: 144px;
+    opacity: 0;
+    margin-top: -24px;
+    margin-left: -24px;
+    -webkit-animation: avatar-hide .2s ease-in;
+    animation: avatar-hide .2s ease-in
+}
+@-webkit-keyframes avatar-hide {
+    0% {
+        width: 112px;
+        height: 112px;
+        opacity: 1;
+        margin-top: 0;
+        margin-left: 0
+    }
+    to {
+        width: 144px;
+        height: 144px;
+        opacity: 0;
+        margin-left: -24px;
+        margin-top: -24px
+    }
+}
+@keyframes avatar-hide {
+    0% {
+        width: 112px;
+        height: 112px;
+        opacity: 1;
+        margin-top: 0;
+        margin-left: 0
+    }
+    to {
+        width: 144px;
+        height: 144px;
+        opacity: 0;
+        margin-left: -24px;
+        margin-top: -24px
+    }
+}
+#login-dialog .box .avatar.active img {
+    width: 112px;
+    height: 112px;
+    opacity: 1;
+    margin-left: 0;
+    margin-top: 0;
+    -webkit-animation: avatar-appear .2s ease-out;
+    animation: avatar-appear .2s ease-out
+}
+@-webkit-keyframes avatar-appear {
+    0% {
+        width: 144px;
+        height: 144px;
+        opacity: 0;
+        margin-left: -24px;
+        margin-top: -24px
+    }
+    to {
+        width: 112px;
+        height: 112px;
+        opacity: 1;
+        margin-left: 0;
+        margin-top: 0
+    }
+}
+@keyframes avatar-appear {
+    0% {
+        width: 144px;
+        height: 144px;
+        opacity: 0;
+        margin-left: -24px;
+        margin-top: -24px
+    }
+    to {
+        width: 112px;
+        height: 112px;
+        opacity: 1;
+        margin-left: 0;
+        margin-top: 0
+    }
+}
+#login-dialog .box.final {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 14px;
+    color: #555
+}
+#login-dialog .box.final img {
+    display: block;
+    margin: 10px auto
+}
+#login-dialog .box.final strong {
+    font-size: 18px;
+    display: block;
+    font-weight: 700;
+    color: #111
+}
+#login-dialog .box .multiple-fields {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 -7.5px
+}
+@media (min-width: 480px) {
+    #login-dialog .box .multiple-fields {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+}
+#login-dialog .box .multiple-fields .field {
+    margin: 0 7.5px;
+    width: calc(100% - 15px)
+}
+@media (min-width: 480px) {
+    #login-dialog .box .multiple-fields .field {
+        width: calc(50% - 15px)
+    }
+}
+#login-dialog .box .field {
+    padding-bottom: 15px;
+    position: relative
+}
+#login-dialog .box input {
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 15px;
+    line-height: normal;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    width: 100%
+}
+#login-dialog .box input.with-appended-icon {
+    padding-right: 40px
+}
+#login-dialog .box label {
+    
+    padding: 0;
+    font-size: 13px
+}
+#login-dialog .box label input {
+    width: auto;
+    display: inline-block;
+    min-width: 0;
+    max-width: 100%
+}
+#login-dialog .box p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px
+}
+#login-dialog .box .action-button {
+    padding: 8px 14px
+}
+#login-dialog .box .forgot-password-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(/dist/images/structure/login/forgot-password-icon-rEy0Gp8X.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    color: transparent;
+    right: 0;
+    padding: 10px;
+    opacity: .5;
+    outline: none
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min--moz-device-pixel-ratio: 1.5),
+(min-resolution: 1.5dppx) {
+    #login-dialog .box .forgot-password-icon {
+        background-image: url(/dist/images/structure/login/forgot-password-icon@2x-2JoxMvZB.png);
+        background-size: 22px 22px
+    }
+}
+#login-dialog .box .forgot-password-icon:focus,
+#login-dialog .box .forgot-password-icon:hover {
+    opacity: .8
+}
+#login-dialog .box footer {
+    margin-top: 5px;
+    font-size: 13px
+}
+#login-dialog .box footer .float-right {
+    float: none
+}
+@media (min-width: 480px) {
+    #login-dialog .box footer .float-right {
+        float: right
+    }
+}
+#login-dialog .box footer>a {
+    display: block;
+    margin: 11px 0
+}
+@media (min-width: 480px) {
+    #login-dialog .box footer>a {
+        display: inline-block
+    }
+}
+#login-dialog .box footer:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both
+}
+#login-dialog .box .outer-link {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: -32px
+}
+#login-dialog.modal {
+    margin-left: -200px
+}
+#login-dialog.modal .outer-link a.action-button {
+    display: block;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .6)
+}

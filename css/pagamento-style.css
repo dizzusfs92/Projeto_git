@@ -1,0 +1,871 @@
+#equivalente,
+.texto-cartao-cadastrado {
+    color: #757e8b
+}
+.nome-plano,
+.texto-cartao-cadastrado,
+form#js-form-checkout input[type=text] {
+    text-transform: uppercase
+}
+.footer-plano .tooltip,
+.inner-addon .icone {
+    pointer-events: none
+}
+.link-usar-outro-cartao {
+    text-align: center
+}
+.wrapper-dados-boleto img.radio-azul {
+    margin-right: 0
+}
+.wrapper-dados-boleto img.js-bandeira-cartao-cadastrado {
+    float: right;
+    width: 29px;
+    height: 20px;
+    margin-right: 0
+}
+.bandeira-cartao {
+    width: 24px
+}
+#js-pagar-com-boleto,
+#js-pagar-com-cartao,
+.js-link-plano-semestral {
+    text-decoration: underline
+}
+#modal_planos {
+    height: auto;
+    min-height: 100%
+}
+#grupo-cvc .popover-title {
+    display: none
+}
+#equivalente {
+    font-size: 13px
+}
+#equivalente.upgrade {
+    visibility: visible!important;
+    margin-top: -17px
+}
+#mensagens-pagto {
+    width: 100%;
+    position: relative;
+    tab-index: -1;
+    color: #3b3b3b;
+    padding: 17px 40px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: .2px;
+    text-align: center;
+    font-weight: 400
+}
+#mensagens-pagto.sucesso {
+    background-color: rgba(1, 205, 120, .3);
+    border: 1px solid #01cd78
+}
+#mensagens-pagto.erro {
+    background-color: rgba(247, 94, 94, .3);
+    border: 1px solid #f75e5e
+}
+#economize-anual {
+    color: #02cd99;
+    position: absolute;
+    font-size: 11px;
+    width: 90px;
+    right: 9px;
+    top: 8px;
+    font-weight: 600;
+    transform: rotate(15deg);
+    font-family: Noteworthy, serif
+}
+#economize-anual img {
+    transform: rotate(-15deg);
+    float: right;
+    margin-right: 20px
+}
+#js-cvc-popover.active {
+    color: #0493f9
+}
+.numero-cartao {
+    background-image: url(../../../imagens/pagamentos/cartao_sem_bandeira.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px
+}
+.numero-cartao.visa {
+    background-image: url(../../../imagens/pagamentos/cartao_bandeira_visa.svg)
+}
+.numero-cartao.mastercard {
+    background-image: url(../../../imagens/pagamentos/cartao_bandeira_mastercard.svg)
+}
+.numero-cartao.amex {
+    background-image: url(../../../imagens/pagamentos/cartao_bandeira_amex.svg)
+}
+.numero-cartao.diners {
+    background-image: url(../../../imagens/pagamentos/cartao_bandeira_diners.svg)
+}
+.numero-cartao.elo {
+    background-image: url(../../../imagens/pagamentos/cartao_bandeira_elo.svg)
+}
+.item-plano {
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    transition: all .2s ease;
+    position: relative;
+    margin-top: 25px
+}
+.container-pagamento .valores {
+    background-color: #f8f8f8;
+    border: 1px solid #d6d6d6;
+	height: 105%;
+    text-align: center
+}
+.container-pagamento .dados {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+	
+    position: relative!important
+}
+.periodos-planos .btn {
+    height: 38px;
+    font-size: 15px;
+    color: #757e8b;
+    border-color: #a7b8d1;
+    background: #fff;
+    transition: all .2s ease
+}
+.form-dados-cartao-boleto {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: left;
+    padding: 15px 0;
+    display: inline-block
+}
+.planos-content .row-planos {
+    text-align: center
+}
+.footer-plano .popular {
+    color: #02CD99;
+    font-size: 14px;
+    font-weight: 700
+}
+.wrapper-dados-boleto {
+    background-color: #fff;
+    border: 1px solid #757e8b;
+    border-radius: 5px;
+    text-align: left;
+    margin: 0 15px 16px
+}
+.footer-mensagem-assinatura {
+    border: 1px solid #d6d6d6;
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    color: #757e8b;
+    font-size: 12px
+}
+.botoes a,
+.mensagem-secundaria a.link-boleto-mundipagg {
+    border: 1px solid #0192F6;
+    border-radius: 5px;
+    color: #0493f9;
+    font-size: 14px;
+    line-height: 50px;
+    display: inline-block;
+    transition: all .2s ease;
+    font-weight: 600;
+    text-decoration: none;
+    width: 240px
+}
+.botoes a:hover,
+.mensagem-secundaria a.link-boleto-mundipagg:hover {
+    background-color: #0493F9;
+    color: #fff
+}
+.planos.container {
+    padding-left: 0;
+    padding-right: 0
+}
+#modal-pagto-dialog {
+    width: 100%;
+    height: 100%;
+    padding: 0
+}
+.fundo-cinza {
+    background-color: #EEEFF1
+}
+#conteudo-modal-pagto {
+    height: 100%;
+    border-radius: 0
+}
+.planos-header .titulo {
+    font-size: 25px;
+    text-align: center;
+    color: #555
+}
+.planos-header .row-fluid {
+    line-height: 50px
+}
+.planos-header .alterar-plano {
+    font-size: 20px
+}
+.alterar-plano .texto-link {
+    font-size: 14px;
+    position: absolute;
+    padding: 0 0 0 10px
+}
+.planos-header a {
+    color: #9B9B9B
+}
+.titulo-pagamento {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center
+}
+.planos-header .btn-fechar {
+    font-size: 40px;
+    cursor: pointer;
+    text-align: right;
+    position: relative;
+    float: right;
+    color: #9B9B9B
+}
+.plano-desabilitado {
+    opacity: .6
+}
+.item-plano .overlay-plano-desabilitado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 4
+}
+.item-plano:hover::after,
+.plano-atual::after {
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    border: 2px solid #0493F9;
+    z-index: 1
+}
+.plano-desabilitado:hover::after {
+    content: '';
+    border: none
+}
+.ribbon {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 50px 0;
+    border-color: transparent #02CD99 transparent transparent;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    z-index: 2
+}
+.ribbon-bg-bottom,
+.ribbon-bg-top {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 0 4px;
+    border-color: transparent transparent transparent #038261;
+    position: absolute;
+    z-index: 1
+}
+.ribbon-text {
+    color: #fff;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 1px;
+    right: -46px;
+    font-size: 18px
+}
+.ribbon-bg-top {
+    right: 42px;
+    top: -4px
+}
+.ribbon-bg-bottom {
+    right: -4px;
+    top: 42px
+}
+.nome-plano {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    line-height: 55px;
+    color: #01376D;
+    position: relative
+}
+.nome-plano i {
+    position: absolute;
+    right: 40px;
+    top: 31%;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+}
+.nome-plano i.invertido {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg)
+}
+.preco-plano {
+    background-color: #F4F4F4;
+    display: block;
+    color: #3e6a95;
+    font-size: 17px;
+    padding: 0 0 10px;
+    height: 100px
+}
+.preco-plano .reais {
+    position: absolute;
+    margin-top: 15px
+}
+.preco-plano .numeros {
+    color: #0493F9;
+    font-size: 56px;
+    margin-left: 24px
+}
+.preco-plano .numeros .centavos {
+    font-size: 22px;
+    position: absolute;
+    margin-top: 12px
+}
+.preco-plano .texto {
+    display: block;
+    font-size: 13px;
+    color: #757e8b;
+    margin-top: -10px
+}
+.dados-plano {
+    display: block;
+    color: #3b3b3b
+}
+.dados-plano ul {
+    margin-top: 10px
+}
+.dados-plano .usuarios {
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 700
+}
+.usuarios i {
+    color: #a7b8d1;
+    transition: all .2s ease;
+    padding: 0 10px;
+    font-size: 20px;
+    cursor: pointer
+}
+.usuarios i:hover {
+    color: #0493F9
+}
+.usuarios i.disabled {
+    color: #D9E0EB
+}
+.dados-plano li {
+    line-height: 30px
+}
+.dados-plano li.preco-plano-ind {
+    color: #ACACAC
+}
+.footer-plano {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px
+}
+.footer-plano .btn-assinar {
+    border: 1px solid #0493F9;
+    display: block;
+    border-radius: 4px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0493F9;
+    transition: all .2s ease
+}
+.footer-plano .btn-assinar:hover,
+.plano-atual .footer-plano .btn-assinar {
+    background-color: #0493F9;
+    color: #FFF
+}
+.btn-assinar.desabilitado,
+.btn-assinar.desabilitado:hover,
+.plano-atual .footer-plano .btn-assinar.desabilitado {
+    color: #AAA;
+    background-color: transparent;
+    border: 1px solid #AAA;
+    font-weight: 600
+}
+.usuario-adicional {
+    display: block;
+    margin-top: 35px;
+    font-size: 16px;
+    color: #818181;
+    text-align: center
+}
+.termos-uso {
+    text-align: center;
+    margin: 56px 0 20px;
+    color: #bebebe;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px
+}
+.periodos-planos {
+    margin: 45px 0 36px
+}
+.periodos-planos .btn.selecionado {
+    background-color: #014ccd;
+    color: #fff;
+    text-shadow: none
+}
+.periodos-planos .btn:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+.periodos-planos .btn:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+.form-dados-cartao-boleto.hidden {
+    display: none
+}
+.form-dados-cartao-boleto input[type=text] {
+    height: 45px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%
+}
+.pague-com-boleto-cartao {
+    margin: 26px 0
+}
+.pague-com-boleto-cartao a {
+    color: #3b3b3b;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+.pague-com-boleto-cartao a:hover {
+    color: #0493F9
+}
+.checkout-btn-assinar .btn {
+    width: 264px;
+    line-height: 52px;
+    background-color: #014ccd;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-image: none;
+    transition: all .2s ease;
+    text-shadow: none;
+    border: 1px solid #014ccd;
+    margin: 0
+}
+.checkout-btn-assinar .btn:hover {
+    background-color: #3504b0;
+    color: #fff
+}
+.compra-segura {
+    color: #014ccd;
+    margin: 16px 0 20px;
+    font-size: 13px
+}
+.compra-segura i {
+    margin-right: 13px;
+    font-size: 16px;
+    padding: 0
+}
+.valor-total {
+    color: #757e8b;
+    font-size: 13px
+}
+.parcelas {
+    color: #0493f9;
+    font-size: 18px
+}
+.parcelas .interno {
+    font-size: 35px
+}
+.texto-economizando {
+    color: #757e8b
+}
+.descricao-plano {
+    border-top: 1px solid #d6d6d6;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #000;
+    font-size: 18px
+}
+.usuarios-plano {
+    color: #757e8b;
+    font-size: 14px
+}
+.inner-addon {
+    position: relative;
+    display: inline
+}
+.inner-addon .icone {
+    position: absolute;
+    font-size: 18px;
+    color: #bebebe;
+    line-height: 45px;
+    padding-right: 27px;
+    transition: all .2s ease
+}
+.left-addon .icone {
+    left: 0
+}
+.right-addon .icone {
+    right: 0
+}
+.left-addon input {
+    padding-left: 30px
+}
+.right-addon input {
+    padding-right: 30px
+}
+#validade-cartao {
+    margin-left: 15px;
+    float: right
+}
+.inner-addon i.icon-question-sign {
+    pointer-events: all
+}
+.texto-boleto-bancario {
+    color: #757e8b;
+    font-size: 18px
+}
+.texto-boleto-bancario.valor-plano {
+    float: right
+}
+.texto-info-boleto {
+    color: #757e8b;
+    font-size: 13px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    margin: 0 15px 3px
+}
+.quadro-sucesso {
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    padding: 37px 20px 28px;
+    background-color: #fff
+}
+.wrapper-conteudo {
+    padding: 0 15px;
+    color: #818181;
+    font-size: 14px
+}
+.header-mensagem {
+    font-size: 25px;
+    display: block;
+    line-height: 34px;
+    margin-top: 24px;
+    color: #000
+}
+.conteudo-mensagem {
+    margin-top: 20px;
+    display: block
+}
+.mensagem-secundaria {
+    margin-top: 30px;
+    text-align: center;
+    display: block
+}
+.botoes a.link-voltar-mundipagg,
+.mensagem-secundaria a {
+    color: #3b3b3b;
+    text-decoration: underline;
+    font-size: 14px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    border: none;
+    padding: 0;
+    font-weight: 400;
+    width: auto
+}
+.botoes a.link-voltar-mundipagg:hover {
+    background: #fff;
+    color: #3b3b3b
+}
+.conteudo-mensagem p,
+.mensagem-secundaria p {
+    line-height: 19px;
+    margin: 0
+}
+.wrapper-conteudo .botoes {
+    margin-top: 30px;
+    display: block;
+    text-align: center
+}
+.planos-footer {
+    margin-bottom: 30px
+}
+.tab-content.modal_planos {
+    overflow: hidden
+}
+.botoes .btn-conferir-dados {
+    margin: 30px 0 0!important
+}
+input.error-checkout {
+    border-color: #f75e5e
+}
+input.error-checkout:focus {
+    border-color: #f75e5e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #d59392
+}
+input.loading {
+    background-image: url(../../../imagens/pagamentos/loading-checkout.gif)!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    -webkit-background-size: 15%;
+    background-size: 15%
+}
+@media screen and (max-width: 767px) {
+    .item-plano,
+    .plano-mais-popular.plano-industria-e-rep {
+        height: auto
+    }
+    .form-cartao-cadastrado {
+        width: 100%
+    }
+    #equivalente.upgrade {
+        visibility: visible!important
+    }
+    #grupo-cvc .popover {
+        top: -88px!important;
+        left: 219.56px!important;
+        display: block!important;
+        max-width: 130px
+    }
+    #dialog-erro-cartao {
+        width: 90%
+    }
+    .modal.planos {
+        min-height: 100%!important;
+        position: absolute;
+        left: 0;
+        border-radius: 0;
+        top: 0!important;
+        right: 0;
+        background-color: #EEEFF1
+    }
+    .aberto .wrapper-dados-plano {
+        display: block
+    }
+    .titulo .btn-fechar,
+    .wrapper-dados-plano {
+        display: none
+    }
+    .plano-industria-e-rep {
+        height: auto;
+        margin-top: 55px
+    }
+    .plano-mais-popular.plano-industria-e-rep.aberto {
+        height: 625px
+    }
+    .plano-mais-popular {
+        height: auto
+    }
+    .item-plano.aberto {
+        height: 540px
+    }
+    .plano-industria.aberto {
+        height: 520px
+    }
+    .botoes a {
+        width: 100%;
+        margin-bottom: 20px
+    }
+    .container-pagamento .valores {
+        border-radius: 5px 5px 0 0
+    }
+    .container-pagamento .dados {
+        border-top: none;
+        border-radius: 0 0 5px 5px
+    }
+    #cvc-cartao {
+        margin-bottom: 0
+    }
+    .wrapper-dados-boleto {
+        padding: 15px
+    }
+    .wrapper-dados-boleto img {
+        vertical-align: sub
+    }
+    .planos-header {
+        color: #9B9B9B
+    }
+    .btn-fechar .fechar {
+        font-size: 14px;
+        position: absolute;
+        right: 45px
+    }
+    .planos-content .row-planos {
+        padding: 0 15px
+    }
+}
+@media screen and (min-width: 768px) {
+    .titulo {
+        padding: 0
+    }
+    #grupo-cvc .popover {
+        max-width: 180px;
+        top: -35px!important
+    }
+    .row-fluid.offset-1-e-meio {
+        margin-left: 12.9%
+    }
+    .modal.planos {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: 0;
+        left: 0;
+        border-radius: 0
+    }
+    .item-plano {
+        height: 530px
+    }
+    .plano-industria-e-rep {
+        height: 500px;
+        margin-top: 30px
+    }
+    .plano-industria-e-rep.plano-mais-popular {
+        height: 560px;
+        margin-top: 0
+    }
+    .botoes a {
+        width: 240px
+    }
+    .botoes a:first-of-type {
+        margin-right: 20px
+    }
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+    .container-pagamento .valores {
+        border-radius: 5px 0 0 5px;
+        position: relative!important
+    }
+    .coluna-esquerda {
+        position: absolute;
+        top: 6.4%;
+        width: 85%;
+        left: 18px
+    }
+    .detalhe-coluna-esquerda,
+    .fundo-detalhe-coluna-esquerda {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 12px 12px 12px 0;
+        top: 47%;
+        position: absolute
+    }
+    .detalhe-coluna-esquerda {
+        border-color: transparent #fff transparent transparent;
+        right: -1px;
+        z-index: 70
+    }
+    .fundo-detalhe-coluna-esquerda {
+        border-color: transparent #BDBCBC transparent transparent;
+        right: 0;
+        z-index: 62
+    }
+    .texto-economizando {
+        width: 100px;
+        margin: 50px auto 0
+    }
+    .texto-economizando strong {
+        font-weight: 700
+    }
+    .container-pagamento .dados {
+        border-left: none;
+        border-radius: 0 5px 5px 0
+    }
+    #cvc-cartao,
+    #nome-cartao {
+        margin-bottom: 0
+    }
+    .wrapper-dados-boleto {
+        padding: 20px
+    }
+    .wrapper-dados-boleto img {
+        margin-right: 18px;
+        vertical-align: sub
+    }
+    .periodos-planos .btn {
+        width: 126px
+    }
+    .form-dados-cartao-boleto {
+        margin: 0 30px;
+        width: 394px
+    }
+    #js-form-dados-cartao div.col-lg-3,
+    #js-form-dados-cartao div.col-lg-4 {
+        padding-left: 0
+    }
+    .planos-header {
+        margin: 50px 0 30px;
+        color: #9B9B9B
+    }
+    .btn-fechar .fechar {
+        font-size: 14px;
+        position: absolute;
+        right: 33px
+    }
+    .planos-content .row-planos {
+        padding: 0 1px
+    }
+    .plano-mais-popular {
+        height: 565px;
+        margin-top: 0
+    }
+    .footer-plano .popular {
+        display: block;
+        margin-bottom: 10px
+    }
+    #modal_planos {
+        overflow-y: auto
+    }
+}
+@media screen and (max-width: 1200px) {
+    #nome-cartao {
+        margin-bottom: 10px
+    }
+    #js-form-dados-cartao div.col-lg-3,
+    #js-form-dados-cartao div.col-lg-4 {
+        padding-left: 15px
+    }
+}
