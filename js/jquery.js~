@@ -11,7 +11,7 @@ var parts = document.location.search.slice( 1 ).split( "&" ),
 
 for ( ; i < length; i++ ) {
 	current = parts[ i ].split( "=" );
-	if ( current[ 0 ] === "jquery" && true) {
+	if ( current[ 0 ] === "jquery" ) {
 		version = current[ 1 ];
 		break;
 	}
